@@ -98,9 +98,14 @@ body{
 	text-decoration: none;
 	display: inline-block;
 	text-transform: uppercase;
-	padding: 10px;
 	color: black;
+}
+
+.indexNav,
+.blogNav,
+.contactNav{
 	font-size: 1.4rem;
+	padding: 10px;
 }
 
 .nav1 a:hover{
@@ -119,6 +124,11 @@ body{
 
 span{
 	visibility: hidden;
+}
+
+.nav1Fa{
+	font-size: 2rem;
+	padding: 5px 10px;
 }
 
 .nav1Fa:hover{
