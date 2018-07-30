@@ -403,3 +403,112 @@ span{
 
 /* ---------- Footer Styles ----------- */
 
+.footer{
+	background: #333333;
+	margin-top: -1%;
+}
+
+.foot1{
+	padding: 5% 0;
+	margin-bottom: 5%;
+}
+
+.foot1 h3{
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-size: 1.8rem;
+	font-weight: 400;
+	color: #ffffff;
+	padding: 40px 0;
+}
+
+.foot1 p,
+.foot1 a,
+.foot1 li{
+	font-size: 1.4rem;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.footContact,
+.footPosts,
+.footForm{
+	float: left;
+	width: 25%;
+	margin: 0 4%;
+}
+
+.footPosts li{
+	margin-left: 14%;
+}
+
+.footPosts h3{
+	text-align: center;
+}
+
+.footContact p,
+.footPosts a,
+.footPosts li{
+	padding: 5px 0;
+}
+
+.socialNav{
+	margin-left: -3%;
+	margin-top: 20px;
+}
+
+.socialNav li{
+	float: left;
+	text-decoration: none;
+	list-style-type: none;
+	padding: 3px;
+}
+
+.socialNav a{
+	padding: 10px;
+}
+
+.footForm h3,
+.footForm p{
+	text-align: right;
+}
+
+.form{
+	margin-left: 16%;
+	margin-top: 40px;
+}
+
+.labelInput,
+.inputGroup{
+	float: left;
+}
+
+.labelInput,
+.email{
+	background: #ffffff;
+	height: 40px;
+	padding: 0 5%;
+	border: none;
+}
+
+.go{
+	background: #c3dab7;
+	height: 40px;
+	padding: 0 100%;
+	border: none;
+}
+
+.foot2{
+	border-top: 1px solid #666666;
+}
+
+.foot2 h3{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-size: 1.4rem;
+	font-weight: 400;
+	color: #ffffff;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+	padding: 5%;
+}
