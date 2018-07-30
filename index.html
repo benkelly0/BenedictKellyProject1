@@ -45,8 +45,9 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="indexNav1Fa nav1Fa" href="#">
+                                <a class="cart indexNav1Fa nav1Fa" href="#">
                                     <i title="Shopping Cart" class="fas fa-shopping-bag"></i>
+                                    <div class="cartNum">2</div>
                                 </a>
                             </li>
                         </ul>
@@ -80,10 +81,14 @@
         
 
         <section class="indexSection2 wrapper">
-            <div>
+            <div class="flick">
                 <figure>
                     <img src="assets/home-3.jpeg" alt="">
                     <figcaption><em>Ecosystem iPad disruptice social media low hanging fruit stealth launch party handshake market branding. Pitch agile development business plan stealth channels prototype mass market product management value proposition startup strategy. Product management early adopters user experience metrics advisor gamification responsive web design hackathon termsheet backing series.</em></figcaption>
+                </figure>
+                <figure>
+                    <img src="assets/home-3.jpeg" alt="">
+                    <figcaption><em>Ecosystem iPad disruptice social media low hanging fruit stealth launch party handshake market  branding. Pitch agile development business plan stealth channels prototype mass market product management value proposition startup strategy. Product management early adopters user experience metrics advisor gamification responsive web design hackathon termsheet backing series.</em></figcaption>
                 </figure>
             </div>
         </section>
@@ -263,9 +268,9 @@
                     cellAlign: "left",
                     contain: true,
                     wrapAround: true,
-                    draggable: false,
+                    draggable: true,
                     pageDots: false,
-                    autoPlay: 5000
+                    autoPlay: 3000
                 });
                 $(".nav1 a, .nav2 a").smoothScroll({
                 });

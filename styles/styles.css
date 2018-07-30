@@ -71,7 +71,6 @@ body{
 /* ---------- Header Styles - General ---------- */
 
 .header{
-	min-height: 100vh;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -135,6 +134,23 @@ span{
 	border: 1px solid black;
 }
 
+.cart{
+	position: relative;
+}
+
+.cartNum{
+	position: absolute;
+	background: #c3dab7;
+	font-size: 1rem;
+	border-radius: 50%;
+	width: 14px;
+	height: 14px;
+	padding-left: 4px;
+	padding-top: 1px;
+	bottom: 2%;
+	right: 6%;
+}
+
 .posFix{
 	height: 100px;
 	width: 100%;
@@ -148,11 +164,15 @@ span{
 	background-image: url(../assets/home-1.jpeg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: bottom;
+	background-position: top;
+	min-height: 100vh;
 }
 
 .indexPosFix{
-	background-color: #efeff1;
+	background-image: url(../assets/home-1.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
 }
 
 .indexNav:hover span{
@@ -166,7 +186,52 @@ span{
 
 /* ---------- Header Styles - Blog ---------- */
 
+.blogHeader{
+	background-image: url(../assets/blog-1.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	min-height: 93vh;
+}
+
+.blogPosFix{
+	background-image: url(../assets/blog-1.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+}
+
+.blogNav:hover span{
+	visibility: visible;
+	color: #f8f8f8;
+}
+
+.blogNav1Fa{
+	border: 1px solid #f8f8f8;
+}
+
 /* ---------- Header Styles - Contact ---------- */
+
+.contactHeader{
+	background-image: url(../assets/contact-1.jpeg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: bottom;
+	min-height: 37vh;
+}
+
+.contactPosFix{
+	background-color: #ffffff
+}
+
+.contactNav:hover span{
+	visibility: visible;
+	color: #ffffff;
+}
+
+.contactNav1Fa{
+	border: 1px solid #ffffff;
+}
 
 /* ---------- Main Styles - Index ---------- */
 
@@ -228,6 +293,7 @@ span{
 .indexSection2 figure{
 	text-align: center;
 	padding: 10% 16%;
+	width: 100%;
 }
 
 .indexSection2 img{
@@ -272,6 +338,12 @@ span{
 	color: black;
 	padding-top: 10px;
 	margin: 10%;
+	transition: 1s;
+}
+
+.indexSec3Unit a:hover{
+	color: #ebebed;
+	background: black;
 }
 
 .indexSec3Unit h3{
@@ -395,6 +467,13 @@ span{
 	text-decoration: none;
 	background: #ffffff;
 	padding: 5%;
+	transition: 1s;
+}
+
+.indexSec5Text a:hover{
+	background: black;
+	color: #ffffff;
+	border: 1px solid #ffffff;
 }
 
 /* ---------- Main Styles - Blog ---------- */
@@ -420,6 +499,19 @@ span{
 	font-weight: 400;
 	color: #ffffff;
 	padding: 40px 0;
+}
+
+.foot1 a{
+	transition: 1s;
+}
+
+.foot1 a:hover{
+	color: #c3dab7;
+	text-decoration: underline;
+}
+
+.nav2 a:hover{
+	border-bottom: 1px solid #c3dab7;
 }
 
 .foot1 p,
@@ -496,6 +588,11 @@ span{
 	height: 40px;
 	padding: 0 100%;
 	border: none;
+	transition: 1s;
+}
+
+.go:hover{
+	color: #ffffff;
 }
 
 .foot2{
