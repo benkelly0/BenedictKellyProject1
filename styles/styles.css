@@ -730,6 +730,67 @@ span{
 	margin-top: -130px;
 }
 
+.contactDetails h2,
+.contactSection2 h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.8rem;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding: 30px 0;
+	margin-top: 80px;
+}
+
+.contactDetails p,
+.contactSection2 p{
+	font-size: 1.4rem;
+	color: #999999;
+	width: 50%;
+	line-height: 26px;
+}
+
+.contactOptions{
+	margin: 50px 0;
+}
+
+.contactOptions ul li{
+	float: left;
+	list-style-type: none;
+	width: 30%;
+	padding: 40px 0 40px 40px;
+}
+
+.contactOptions ul li:first-child,
+.contactOptions ul li:nth-child(2){
+	border-right: 1px solid #999999;
+}
+
+.contactFa{
+	font-size: 4rem;
+	padding: 10px 0;
+}
+
+.contactOptions h3{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.4rem;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding: 10px 0;
+}
+
+.contactOptions p{
+	font-size: 1.2rem;
+	padding: 5px 0;
+}
+
+.contactOptions a{
+	text-decoration: none;
+	color: #000;
+}
+
+.contactSection2 p{
+	padding-bottom: 50px;
+}
+
 /* ---------- Footer Styles ----------- */
 
 .footer{

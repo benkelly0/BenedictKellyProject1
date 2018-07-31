@@ -36,7 +36,7 @@
                                 <a class="contactNav" href="#main"><span>--</span>shop<span>--</span></a>
                             </li>
                             <li>
-                                <a class="contactNav" href="#"><span>--</span>contact<span>--</span></a>
+                                <a class="contactNav" href="#contact"><span>--</span>contact<span>--</span></a>
                             </li>
                             <li>
                                 <a class="contactNav1Fa nav1Fa" href="http://google.com">
@@ -58,43 +58,71 @@
 <!-- ---------- Header Ends ---------- -->
     
 <!-- ---------- Main Begins ---------- -->
-    <main id="main" class="contactMain wrapper">
-        <section class="contactSection1">
+    <main id="main" class="contactMain">
+        <section class="contactSection1 wrapper">
             <div class="contactHeading">
                 <div class="line"></div>
                 <h1>contact</h1>
                 <h1>us</h1>
             </div>
-            <div>
+            <div class="contactDetails">
                 <h2>contact details</h2>
                 <p>If you need any help, please contact us or send us an email or go to our forum. We are sure that you can receive our reply as soon as possible.</p>
             </div>
-            <div>
-                <ul>
+            <div class="contactOptions">
+                <ul class="clearfix">
                     <li>
-                        <i title="phone" class="fas fa-mobile-alt"></i>
+                        <h2 class="contactFa"><i title="phone" class="fas fa-mobile-alt"></i></h2>
                         <h3>phone</h3>
-                        <p>Phone 01: </p>
-                        <p>Phone 02:</p>
+                        <p>Phone 01: <a href="#">123 456 7890</a></p>
+                        <p>Phone 02: <a href="#">345 678 9101</a></p>
                     </li>
                     <li>
-                        <i title="address" class="fas fa-map-marker-alt"></i>
+                        <h2 class="contactFa"><i title="address" class="fas fa-map-marker-alt"></i></h2>
                         <h3>address</h3>
                         <p>6591 Orchard Street, Toronto, Ontario</p>
                     </li>
                     <li>
-                        <i title="email" class="fas fa-envelope"></i>
+                        <h2 class="contactFa"><i title="email" class="fas fa-envelope"></i></h2>
                         <h3>email</h3>
-                        <p>contact@creative.com</p>
-                        <p>info@creative.com</p>
+                        <p><a href="">contact@creative.com</a></p>
+                        <p><a href="">info@creative.com</a></p>
                     </li>
                 </ul>
             </div>
         </section>
-        <section class="contactSection2">
+        <section id="contact" class="contactSection2 wrapper">
             <h2>get in touch with us</h2>
             <p>If you have any question, Please don’t hesitate to send us a message</p>
-            <form action=""></form>
+            <form class="commentForm" action="http://www.focuspocus.io/magic/cb7ec415798f5206a9be94699596ce6d" method="POST" name="comment">
+                <div class="commentFormFloat clearfix">
+                    <div class="labelNameComment">
+                        <label class="visuallyhidden" for="name">Name</label>
+                        <input class="commentName" type="text" name="name" id="name" placeholder="Enter your name...">
+                    </div>
+                    <div class="labelEmailComment">
+                        <label class="visuallyhidden" for="email">Email Address</label>
+                        <input class="commentEmail" type="text" name="email" id="email" placeholder="youremail@domain.com">
+                    </div>
+                    <div class="labelSubjectComment">
+                        <label class="visuallyhidden" for="subject">Subject (Optional)</label>
+                        <input class="commentSubject" type="text" name="subject" id="subject" placeholder="Subject (Optional)">
+                    </div>
+                </div>
+                <div class="labelTextareaComment">
+                    <label class="visuallyhidden" for="textarea">Comment</label>
+                    <textarea class="commentTextarea" name="textarea" id="textarea" placeholder="Here goes your message" cols="30" rows="8"></textarea>
+                </div>
+                <div class="inputComment">
+                    <label class="visuallyhidden" for="submit">Submit Comment</label>
+                    <input class="commentGo" name="submit" id="submit" type="submit" value="SEND MESSAGE"></input>
+                </div>
+            </form>
+        </section>
+        <section>
+            <figure>
+                <img src="assets/contact-2.jpeg" alt="">
+            </figure>
         </section>
     
     </main>
