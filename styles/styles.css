@@ -782,6 +782,10 @@ span{
 	padding: 5px 0;
 }
 
+.contactOptions ul li:nth-child(2) p{
+	padding: 17px 0;
+}
+
 .contactOptions a{
 	text-decoration: none;
 	color: #000;
