@@ -161,14 +161,10 @@ span{
 /* ---------- Header Styles - Index ---------- */
 
 .indexHeader{
-	background-image: url(../assets/home-1.jpeg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: top;
 	min-height: 100vh;
 }
 
-.indexPosFix{
+.indexPosFix, .indexHeader{
 	background-image: url(../assets/home-1.jpeg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -187,14 +183,10 @@ span{
 /* ---------- Header Styles - Blog ---------- */
 
 .blogHeader{
-	background-image: url(../assets/blog-1.jpeg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: top;
-	min-height: 93vh;
+	min-height: 80vh;
 }
 
-.blogPosFix{
+.blogPosFix, .blogHeader{
 	background-image: url(../assets/blog-1.jpeg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -477,6 +469,179 @@ span{
 }
 
 /* ---------- Main Styles - Blog ---------- */
+
+.blogSec1Heading h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 5.8rem;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.pathList ul li{
+	display: inline-block;
+}
+
+.path1, .path2{
+	text-decoration: none;
+	color: #999999;
+}
+
+.path3{
+	text-decoration: none;
+	color: #000;
+}
+
+.blogList li{
+	float: left;
+	list-style: none;
+}
+
+.blogList{
+	padding: 40px 0;
+	margin: 50px 0;
+	border-bottom: 1px solid #999999;
+}
+
+.blogList figure{
+	width: 70px;
+	height: 70px;
+}
+
+.blogList img{
+	border-radius: 50%;
+}
+
+.listText{
+	padding: 5px 30px;
+}
+
+.blogList h3{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.6rem;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding: 10px 0;
+}
+
+.blogList p{
+	font-size: 1.4rem;
+	color: #999999;
+}
+
+.listTextLeft{
+	margin-right: 24%;
+}
+
+.blogText p{
+	font-size: 1.4rem;
+	color: #999999;
+	padding-bottom: 30px;
+}
+
+.blogText p strong{
+	color: black;
+}
+
+.blogSocialNav li{
+	display: inline-block;
+}
+
+.blogSocialNav h3{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.6rem;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.blogSocialNav a{
+	padding: 7.5px;
+	color: #000;
+}
+
+.blogSection2 h2,
+.blogSection3 h2,
+.blogSection4 h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3rem;
+	text-transform: uppercase;
+	padding: 30px 0;
+	margin: 60px 0;
+	border-bottom: 1px solid #999999;
+}
+
+.blogSection2 figure{
+	float: left;
+	width: 31%;
+}
+
+.blogSection2 figure:nth-child(2),
+.blogSection2 figure:nth-child(3){
+	margin-right: 3.5%;
+}
+
+.blogSection2 p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.4rem;
+	text-transform: uppercase;
+	padding: 20px 0;
+}
+
+.comment{
+	padding: 20px 0;
+}
+
+.comment figure{
+	float: left;
+	width: 70px;
+	height: 70px;
+}
+
+.speach,
+.comment figcaption{
+	float: right;
+}
+
+.comment figcaption{
+	width: 90%;
+	background: #f6f6f6;
+	padding: 2%;
+
+}
+
+.speach{
+	color: #f6f6f6;
+}
+
+.comment h3{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.4rem;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+}
+
+.comment h3 em{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.4rem;
+	font-weight: 400;
+	text-transform: none;
+}
+
+.comment figcaption p{
+	font-size: 1.4rem;
+	color: #333333;
+}
+
+.comment figcaption .commentDate{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+	color: #999999;
+}
+
+.comment p{
+	padding: 10px 0;
+}
+
+
 
 /* ---------- Main Styles - Contact ---------- */
 
