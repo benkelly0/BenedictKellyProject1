@@ -72,7 +72,7 @@
                         <a class="path2" href="#">Blog /</a>
                     </li>
                     <li>
-                        <a class="path3" href="#">How to Run a Creative Agency</a>
+                        <a class="path3" href="#main">How to Run a Creative Agency</a>
                     </li>
                 </ul>
             </div>
@@ -179,7 +179,30 @@
         </section>
         <section class="blogSection4">
             <h2>leave a comment</h2>
-            <form action=""></form>
+            <form class="commentForm" action="http://www.focuspocus.io/magic/cb7ec415798f5206a9be94699596ce6d" method="POST" name="comment">
+                <div class="commentFormFloat clearfix">
+                    <div class="labelNameComment">
+                        <label class="visuallyhidden" for="name">Name</label>
+                        <input class="commentName" type="text" name="name" id="name" placeholder="Enter your name...">
+                    </div>
+                    <div class="labelEmailComment">
+                        <label class="visuallyhidden" for="email">Email Address</label>
+                        <input class="commentEmail" type="text" name="email" id="email" placeholder="youremail@domain.com">
+                    </div>
+                    <div class="labelSubjectComment">
+                        <label class="visuallyhidden" for="subject">Subject (Optional)</label>
+                        <input class="commentSubject" type="text" name="subject" id="subject" placeholder="Subject (Optional)">
+                    </div>
+                </div>
+                <div class="labelTextareaComment">
+                    <label class="visuallyhidden" for="textarea">Comment</label>
+                    <textarea class="commentTextarea" name="textarea" id="textarea" placeholder="Here goes your comment" cols="30" rows="8"></textarea>
+                </div>
+                <div class="inputComment">
+                    <label class="visuallyhidden" for="submit">Submit Comment</label>
+                    <input class="commentGo" name="submit" id="submit" type="submit" value="SUBMIT COMMENT"></input>
+                </div>
+            </form>
         </section>
     </main>
 <!-- ---------- Main Ends ---------- -->
@@ -265,11 +288,12 @@
 <!-- ---------- Footer Ends ---------- -->
     <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js" integrity="sha384-4oV5EgaV02iISL2ban6c/RmotsABqE4yZxZLcYMAdG7FAPsyHYAPpywE9PJo+Khy"
         crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="scripts/smooth-scroll.js"></script>
     <script>
         $(function () {
-            console.log("I'm ready!");
-            $(".nav1 a, .nav2 a").smoothScroll({
+            // console.log("I'm ready!");
+            $(".nav1 a, .nav2 a, .pathList a").smoothScroll({
             });
         });
     </script>

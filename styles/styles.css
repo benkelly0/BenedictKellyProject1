@@ -151,12 +151,12 @@ span{
 	right: 6%;
 }
 
-.posFix{
+/* .posFix{
 	height: 100px;
 	width: 100%;
 	position: fixed;
 	z-index: 2;
-}
+} */
 
 /* ---------- Header Styles - Index ---------- */
 
@@ -164,7 +164,7 @@ span{
 	min-height: 100vh;
 }
 
-.indexPosFix, .indexHeader{
+.indexHeader{
 	background-image: url(../assets/home-1.jpeg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -183,10 +183,10 @@ span{
 /* ---------- Header Styles - Blog ---------- */
 
 .blogHeader{
-	min-height: 80vh;
+	min-height: 100vh;
 }
 
-.blogPosFix, .blogHeader{
+.blogHeader{
 	background-image: url(../assets/blog-1.jpeg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -209,7 +209,7 @@ span{
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: bottom;
-	min-height: 37vh;
+	min-height: 40vh;
 }
 
 .contactPosFix{
@@ -330,7 +330,7 @@ span{
 	color: black;
 	padding-top: 10px;
 	margin: 10%;
-	transition: 1s;
+	transition: .3s;
 }
 
 .indexSec3Unit a:hover{
@@ -459,7 +459,7 @@ span{
 	text-decoration: none;
 	background: #ffffff;
 	padding: 5%;
-	transition: 1s;
+	transition: .3s;
 }
 
 .indexSec5Text a:hover{
@@ -489,6 +489,12 @@ span{
 .path3{
 	text-decoration: none;
 	color: #000;
+}
+
+.path1:hover,
+.path2:hover,
+.path3:hover{
+	text-decoration: underline;
 }
 
 .blogList li{
@@ -556,6 +562,11 @@ span{
 .blogSocialNav a{
 	padding: 7.5px;
 	color: #000;
+	transition: .3s;
+}
+
+.blogSocialNav a:hover{
+	color: #c3dab7;
 }
 
 .blogSection2 h2,
@@ -641,9 +652,83 @@ span{
 	padding: 10px 0;
 }
 
+.commentFormFloat{
+	margin: 50px 0;
+}
 
+.labelNameComment,
+.labelEmailComment,
+.labelSubjectComment{
+	float: left;
+	width: 32%;
+}
+
+.labelNameComment,
+.labelEmailComment{
+	margin-right: 2%;
+}
+
+.commentName,
+.commentEmail,
+.commentSubject{
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #999999;
+	padding: 10px 0;
+}
+
+.commentTextarea{
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #999999;
+	resize: none;
+	padding: 10px 0;
+}
+
+.commentName:focus,
+.commentEmail:focus,
+.commentSubject:focus,
+.commentTextarea:focus{
+	border-bottom: 2px solid #000;
+}
+
+.inputComment{
+	margin: 80px 0 200px 0; 
+}
+
+.commentGo{
+	font-family: 'Montserrat', sans-serif;
+	border: none;
+	border-bottom: 1px solid #000;
+	background: white;
+	padding: 5px 0;
+	transition: .3s;
+}
+
+.commentGo:hover{
+	color: #c3dab7;
+	border-bottom: 1px solid #c3dab7;
+}
 
 /* ---------- Main Styles - Contact ---------- */
+
+.line{
+	background: #000;
+	height: 3px;
+	width: 40px;
+	margin: 0 0 30px 0;
+}
+
+.contactHeading h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 6rem;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.contactMain{
+	margin-top: -130px;
+}
 
 /* ---------- Footer Styles ----------- */
 
@@ -667,7 +752,7 @@ span{
 }
 
 .foot1 a{
-	transition: 1s;
+	transition: .3s;
 }
 
 .foot1 a:hover{
@@ -753,7 +838,7 @@ span{
 	height: 40px;
 	padding: 0 100%;
 	border: none;
-	transition: 1s;
+	transition: .3s;
 }
 
 .go:hover{
